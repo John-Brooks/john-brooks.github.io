@@ -6,6 +6,8 @@
 
 ![Thumbnail of Slate](thumbnail.png)
 
+
+
 ## Usage
 
 To use the Slate theme:
