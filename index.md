@@ -21,10 +21,9 @@ In my first year as a member of the Smart Vehicle Club, I took on the role of th
 
 <p align="center">
 	<img src="/assets/images/lidar_road.gif">
-</p>
-<p align="center">
-[The Guts](https://github.com/oaklandsmartvehicles/ou_self_drive_ros/blob/master/perception/src/PointMap.cpp)
-
+<br>
+<a href="https://github.com/oaklandsmartvehicles/ou_self_drive_ros/blob/master/perception/src/PointMap.cpp">The Guts</a>
+<br>
 [The Repo](https://github.com/oaklandsmartvehicles/ou_self_drive_ros/)
 </p>
 
