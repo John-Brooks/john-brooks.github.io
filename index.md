@@ -19,7 +19,9 @@ In my first year as a member of the Smart Vehicle Club, I took on the role of th
 
 ![image](/assets/images/lidar_on_roof.jpg)
 
-![gif](/assets/images/lidar_road.gif)
+<p align="center">
+![image](/assets/images/lidar_road.jpg)
+</p>
 
 [The guts](https://github.com/oaklandsmartvehicles/ou_self_drive_ros/blob/master/perception/src/PointMap.cpp)
 
