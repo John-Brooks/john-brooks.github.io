@@ -4,7 +4,7 @@ layout: default
 
 # About Me
 
-I'm a software developer with several years of C++ expierence in the automotive industry and a passion for all things autonomous. As an undergraduate student at Oakland University and President of the Smart Vehicle Club, I've led our team to improve all aspects of our autonomous vehicle platform which competes in the IGVC Self Drive competition. From electrical engineering to machine vision, I've made personal contributions to every component of the vehicle. When I'm not working on our AV platform, I'm usually knee deep in teaching myself machine learning or attending hackathons.
+I'm a software developer with several years of C++ expierence in the automotive industry and a passion for all things autonomous. As an undergraduate student at Oakland University and President of the Smart Vehicle Club, I've led our team to improve all aspects of our autonomous vehicle platform which competes in the IGVC Self Drive competition. From electrical engineering to machine vision, I've made personal contributions to every component of the vehicle. When I'm not working on our AV platform, I'm usually knee deep in teaching myself machine learning or attending hackathons. 
 
 ---
 
@@ -24,7 +24,7 @@ In my first year as a member of the Smart Vehicle Club, I took on the role of th
 
 [The guts](https://github.com/oaklandsmartvehicles/ou_self_drive_ros/blob/master/perception/src/PointMap.cpp)
 
-[The context](https://github.com/oaklandsmartvehicles/ou_self_drive_ros/)
+[The repo](https://github.com/oaklandsmartvehicles/ou_self_drive_ros/)
 
 ---
 
@@ -38,7 +38,7 @@ When I joined the team I started by updating our vision system to use a modern C
 
 [The guts](https://github.com/oaklandsmartvehicles/ou_self_drive_ros/blob/master/yolo/src/YOLO.cpp)
 
-[The context](https://github.com/oaklandsmartvehicles/ou_self_drive_ros/tree/master/yolo)
+[The repo](https://github.com/oaklandsmartvehicles/ou_self_drive_ros/tree/master/yolo)
 
 ---
 
@@ -50,7 +50,7 @@ The platform had 360 degree RADAR coverage provided by six Continental ARS430 RA
 
 [The guts](https://github.com/oaklandsmartvehicles/ou_self_drive_ros/blob/add-RADAR/radar/visualize/main.py)
 
-[The context](https://github.com/oaklandsmartvehicles/ou_self_drive_ros/tree/add-RADAR/radar/visualize)
+[The repo](https://github.com/oaklandsmartvehicles/ou_self_drive_ros/tree/add-RADAR/radar/visualize)
 
 ---
 
@@ -64,7 +64,7 @@ After the 2019 competition year it was clear that our platform had a problem. El
 
 [The guts](https://github.com/oaklandsmartvehicles/DriveByWireECU/blob/master/DriveByWireECU/DriveByWireIO.c)
 
-[The context](https://github.com/oaklandsmartvehicles/DriveByWireECU/tree/master/DriveByWireECU)
+[The repo](https://github.com/oaklandsmartvehicles/DriveByWireECU/tree/master/DriveByWireECU)
 
 ---
 
@@ -74,21 +74,31 @@ After the 2019 competition year it was clear that our platform had a problem. El
 
 At the Grizzhacks 2 competition our team took first place overall and best mobile hack. I wrote the algorithm for detecting the driver's blink rate using a Haar Cascades in OpenCV and tracking the deviation of brightness of the detected eyes. Peaks in brightness detected by a spike in the standard deviation of overall greyscale values triggered a detected blink.
 
-~[image](/assets/images/daydream.jpg)
+[image](/assets/images/daydream.jpg)
 
-[Dev post](https://devpost.com/software/daydream-detector-aka-anti-sleep-5000)
+[Dev Post](https://devpost.com/software/daydream-detector-aka-anti-sleep-5000)
 
 ---
 
 #### Reinforcement Learning
 
-I find reinforcement learning to be very interesting. Under a robotics professor at Oakland University I performed a self guided study of reinforcement learning which included solving a classic Gridworld problem, CartPole, LunarLander (discrete), and then I created my own reinforcement learning environment. The solved Lunar Lander was done using a DQN model implemented with Keras (Tensorflow backend).
+I find reinforcement learning to be very interesting. Under a robotics professor at Oakland University I performed a self guided study of reinforcement learning which included solving a classic Gridworld problem, CartPole, and LunarLander (discrete). The solved Lunar Lander was done using a DQN model implemented with Keras (Tensorflow backend).
 
 ![gif](/assets/images/lunar_lander.gif)
 
 [The guts](https://github.com/John-Brooks/ReinforcementLearning/blob/master/LunarLander/tfmodel.py)
 
-[The context](https://github.com/John-Brooks/ReinforcementLearning/tree/master/LunarLander)
+[The repo](https://github.com/John-Brooks/ReinforcementLearning/tree/master/LunarLander)
 
-My 
+---
+
+I also created my own reinforcement learning environment for a parking lot simulation. This simulation is cross platform. It generates C++ Python bindings using SWIG so that you can interface with the simulation using the same API as the Open AI gym. The 2D courses can be designed using a vector graphics program as they are loaded using a standard .svg file. The agent that I trained on this simulator is the tf.agents DDPG agent, but it's uhhh... still "learning".
+
+![gif](/assets/images/scared_car.gif)
+
+[The guts](https://github.com/John-Brooks/IGVC-Gem-Simulator/blob/master/src/Vehicle.cpp)
+
+[The repo](https://github.com/John-Brooks/IGVC-Gem-Simulator)
+
+ 
 
