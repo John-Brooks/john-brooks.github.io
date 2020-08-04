@@ -12,7 +12,6 @@ I'm a software developer with several years of C++ expierence in the automotive 
 
 ![image](/assets/images/gem.jpg)
 
----
 
 #### LiDAR
 
@@ -54,7 +53,7 @@ The platform had 360 degree RADAR coverage provided by six Continental ARS430 RA
 
 ---
 
-### Electromechanical Design
+#### Electromechanical Design
 
 After the 2019 competition year it was clear that our platform had a problem. Electrically it was a hacked together mess of Arduinos and circuits held together with hopes, dreams, and in some cases duct tape. At one point a USB hub literally caught fire. The most glaring issue though was that the steering was so slow the car could not navigate the timed course as fast as our competitors. So in my time as President of the club, in preparation for the 2020 competition year, we completely overhauled the electrical system, installed a new more powerful steering motor, and wrote microcontroller firmware to control these systems over an Ethernet connection from the host computer.
 
@@ -72,7 +71,7 @@ After the 2019 competition year it was clear that our platform had a problem. El
 
 #### Drowsy Driver Detection
 
-At the Grizzhacks 2 competition our team took first place overall and best mobile hack. I wrote the algorithm for detecting the driver's blink rate using a Haar Cascades in OpenCV and tracking the deviation of brightness of the detected eyes. Peaks in brightness detected by a spike in the standard deviation of overall greyscale values triggered a detected blink.
+At the Grizzhacks 2 competition our team won first place overall and best mobile hack. I wrote the algorithm for detecting the driver's blink rate using a Haar Cascades in OpenCV and tracking the deviation of brightness of the detected eyes. Peaks in brightness detected by a spike in the standard deviation of overall greyscale values triggered a detected blink.
 
 ![image](/assets/images/daydream.jpg)
 
