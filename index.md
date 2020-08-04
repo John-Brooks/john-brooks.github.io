@@ -22,9 +22,10 @@ In my first year as a member of the Smart Vehicle Club, I took on the role of th
 <p align="center">
 	<img src="/assets/images/lidar_road.gif">
 <br>
-<a href="https://github.com/oaklandsmartvehicles/ou_self_drive_ros/blob/master/perception/src/PointMap.cpp">The Guts</a>
+	<a href="https://github.com/oaklandsmartvehicles/ou_self_drive_ros/blob/master/perception/src/PointMap.cpp">The Guts</a>
 <br>
-[The Repo](https://github.com/oaklandsmartvehicles/ou_self_drive_ros/)
+	<a href="https://github.com/oaklandsmartvehicles/ou_self_drive_ros/">The Repo</a>
+<br>)
 </p>
 
 ---
@@ -35,11 +36,14 @@ When I joined the team I started by updating our vision system to use a modern C
 
 ![image](/assets/images/labeling.png)
 
-![gif](/assets/images/LiDAR.gif)
-
-[The guts](https://github.com/oaklandsmartvehicles/ou_self_drive_ros/blob/master/yolo/src/YOLO.cpp)
-
-[The repo](https://github.com/oaklandsmartvehicles/ou_self_drive_ros/tree/master/yolo)
+<p align="center">
+	<img src="/assets/images/LiDAR.gif">
+<br>
+	<a href="https://github.com/oaklandsmartvehicles/ou_self_drive_ros/blob/master/yolo/src/YOLO.cpp">The Guts</a>
+<br>
+	<a href="https://github.com/oaklandsmartvehicles/ou_self_drive_ros/tree/master/yolo">The Repo</a>
+<br>)
+</p>
 
 ---
 
@@ -47,11 +51,14 @@ When I joined the team I started by updating our vision system to use a modern C
 
 The platform had 360 degree RADAR coverage provided by six Continental ARS430 RADARs. The IGVC competition does not require tracking of any moving objects and we found the RADARs to be too noisy for ranging static objects. This was only possible though by developing a RADAR visualization tool. I wrote a visualizer in Python using PyGame. It allowed us to assign various RADAR parameters like RCS and relative velocities to RGB color channels which was useful in attempting to filter out false positive datapoints.
 
-![gif](/assets/images/RADAR.gif)
-
-[The guts](https://github.com/oaklandsmartvehicles/ou_self_drive_ros/blob/add-RADAR/radar/visualize/main.py)
-
-[The repo](https://github.com/oaklandsmartvehicles/ou_self_drive_ros/tree/add-RADAR/radar/visualize)
+<p align="center">
+	<img src="/assets/images/RADAR.gif">
+<br>
+	<a href="https://github.com/oaklandsmartvehicles/ou_self_drive_ros/blob/add-RADAR/radar/visualize/main.py">The Guts</a>
+<br>
+	<a href="https://github.com/oaklandsmartvehicles/ou_self_drive_ros/tree/add-RADAR/radar/visualize">The Repo</a>
+<br>)
+</p>
 
 ---
 
@@ -59,13 +66,17 @@ The platform had 360 degree RADAR coverage provided by six Continental ARS430 RA
 
 After the 2019 competition year it was clear that our platform had a problem. Electrically it was a hacked together mess of Arduinos and circuits held together with hopes, dreams, and in some cases duct tape. At one point a USB hub literally caught fire. The most glaring issue though was that the steering was so slow the car could not navigate the timed course as fast as our competitors. So in my time as President of the club, in preparation for the 2020 competition year, we completely overhauled the electrical system, installed a new more powerful steering motor, and wrote microcontroller firmware to control these systems over an Ethernet connection from the host computer.
 
-![gif](/assets/images/drive_by_wire_test.gif)
+<p align="center">
+	<img src="/assets/images/RADAR.gif">
+<br>	
+	<a href="https://www.youtube.com/watch?v=7-SMA4yzBNs">YouTube: First System Test</a>
+<br>
+	<a href="https://github.com/oaklandsmartvehicles/DriveByWireECU/blob/master/DriveByWireECU/DriveByWireIO.c">The Guts</a>
+<br>
+	<a href="https://github.com/oaklandsmartvehicles/DriveByWireECU/tree/master/DriveByWireECU">The Repo</a>
+<br>)
+</p>
 
-[YouTube: Full System Test Video](https://www.youtube.com/watch?v=7-SMA4yzBNs)
-
-[The guts](https://github.com/oaklandsmartvehicles/DriveByWireECU/blob/master/DriveByWireECU/DriveByWireIO.c)
-
-[The repo](https://github.com/oaklandsmartvehicles/DriveByWireECU/tree/master/DriveByWireECU)
 
 ---
 
@@ -77,7 +88,9 @@ At the Grizzhacks 2 competition our team won first place overall and best mobile
 
 ![image](/assets/images/daydream.jpg)
 
-[Dev Post](https://devpost.com/software/daydream-detector-aka-anti-sleep-5000)
+<p align="center">
+	<a href="https://devpost.com/software/daydream-detector-aka-anti-sleep-5000">DevPost</a>
+</p>
 
 ---
 
@@ -85,21 +98,27 @@ At the Grizzhacks 2 competition our team won first place overall and best mobile
 
 I find reinforcement learning to be very interesting. Under a robotics professor at Oakland University I performed a self guided study of reinforcement learning which included solving a classic Gridworld problem, CartPole, and LunarLander (discrete). The solved Lunar Lander was done using a DQN model implemented with Keras (Tensorflow backend).
 
-![gif](/assets/images/lunar_lander.gif)
-
-[The guts](https://github.com/John-Brooks/ReinforcementLearning/blob/master/LunarLander/tfmodel.py)
-
-[The repo](https://github.com/John-Brooks/ReinforcementLearning/tree/master/LunarLander)
+<p align="center">
+	<img src="/assets/images/lunar_lander.gif">
+<br>
+	<a href="https://github.com/John-Brooks/ReinforcementLearning/blob/master/LunarLander/tfmodel.py">The Guts</a>
+<br>
+	<a href="https://github.com/John-Brooks/ReinforcementLearning/tree/master/LunarLander">The Repo</a>
+<br>)
+</p>
 
 ---
 
 I also created my own reinforcement learning environment for a parking lot simulation. This simulation is cross platform. It generates C++ Python bindings using SWIG so that you can interface with the simulation using the same API as the Open AI gym. The 2D courses can be designed using a vector graphics program as they are loaded using a standard .svg file. The agent that I trained on this simulator is the tf.agents DDPG agent, but it's uhhh... still "learning".
 
-![gif](/assets/images/scared_car.gif)
-
-[The guts](https://github.com/John-Brooks/IGVC-Gem-Simulator/blob/master/src/Vehicle.cpp)
-
-[The repo](https://github.com/John-Brooks/IGVC-Gem-Simulator)
+<p align="center">
+	<img src="/assets/images/scared_car.gif">
+<br>
+	<a href="https://github.com/John-Brooks/IGVC-Gem-Simulator/blob/master/src/Vehicle.cpp">The Guts</a>
+<br>
+	<a href="https://github.com/John-Brooks/IGVC-Gem-Simulator">The Repo</a>
+<br>)
+</p>
 
  
 
