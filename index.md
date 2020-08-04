@@ -86,9 +86,9 @@ After the 2019 competition year it was clear that our platform had a problem. El
 
 At the Grizzhacks 2 competition our team won first place overall and best mobile hack. I wrote the algorithm for detecting the driver's blink rate using a Haar Cascades in OpenCV and tracking the deviation of brightness of the detected eyes. Peaks in brightness detected by a spike in the standard deviation of overall greyscale values triggered a detected blink.
 
-![image](/assets/images/daydream.jpg)
-
 <p align="center">
+	<img src="/assets/images/daydream.jpg">
+<br>
 	<a href="https://devpost.com/software/daydream-detector-aka-anti-sleep-5000">DevPost</a>
 </p>
 
