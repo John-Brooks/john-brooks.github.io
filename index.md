@@ -25,7 +25,7 @@ In my first year as a member of the Smart Vehicle Club, I took on the role of th
 	<a href="https://github.com/oaklandsmartvehicles/ou_self_drive_ros/blob/master/perception/src/PointMap.cpp">The Guts</a>
 <br>
 	<a href="https://github.com/oaklandsmartvehicles/ou_self_drive_ros/">The Repo</a>
-<br>)
+<br>
 </p>
 
 ---
@@ -42,7 +42,7 @@ When I joined the team I started by updating our vision system to use a modern C
 	<a href="https://github.com/oaklandsmartvehicles/ou_self_drive_ros/blob/master/yolo/src/YOLO.cpp">The Guts</a>
 <br>
 	<a href="https://github.com/oaklandsmartvehicles/ou_self_drive_ros/tree/master/yolo">The Repo</a>
-<br>)
+<br>
 </p>
 
 ---
@@ -57,7 +57,7 @@ The platform had 360 degree RADAR coverage provided by six Continental ARS430 RA
 	<a href="https://github.com/oaklandsmartvehicles/ou_self_drive_ros/blob/add-RADAR/radar/visualize/main.py">The Guts</a>
 <br>
 	<a href="https://github.com/oaklandsmartvehicles/ou_self_drive_ros/tree/add-RADAR/radar/visualize">The Repo</a>
-<br>)
+<br>
 </p>
 
 ---
@@ -74,7 +74,7 @@ After the 2019 competition year it was clear that our platform had a problem. El
 	<a href="https://github.com/oaklandsmartvehicles/DriveByWireECU/blob/master/DriveByWireECU/DriveByWireIO.c">The Guts</a>
 <br>
 	<a href="https://github.com/oaklandsmartvehicles/DriveByWireECU/tree/master/DriveByWireECU">The Repo</a>
-<br>)
+<br>
 </p>
 
 
@@ -104,7 +104,7 @@ I find reinforcement learning to be very interesting. Under a robotics professor
 	<a href="https://github.com/John-Brooks/ReinforcementLearning/blob/master/LunarLander/tfmodel.py">The Guts</a>
 <br>
 	<a href="https://github.com/John-Brooks/ReinforcementLearning/tree/master/LunarLander">The Repo</a>
-<br>)
+<br>
 </p>
 
 ---
@@ -117,7 +117,7 @@ I also created my own reinforcement learning environment for a parking lot simul
 	<a href="https://github.com/John-Brooks/IGVC-Gem-Simulator/blob/master/src/Vehicle.cpp">The Guts</a>
 <br>
 	<a href="https://github.com/John-Brooks/IGVC-Gem-Simulator">The Repo</a>
-<br>)
+<br>
 </p>
 
  
