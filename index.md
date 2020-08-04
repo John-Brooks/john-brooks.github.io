@@ -67,7 +67,9 @@ The platform had 360 degree RADAR coverage provided by six Continental ARS430 RA
 After the 2019 competition year it was clear that our platform had a problem. Electrically it was a hacked together mess of Arduinos and circuits held together with hopes, dreams, and in some cases duct tape. At one point a USB hub literally caught fire. The most glaring issue though was that the steering was so slow the car could not navigate the timed course as fast as our competitors. So in my time as President of the club, in preparation for the 2020 competition year, we completely overhauled the electrical system, installed a new more powerful steering motor, and wrote microcontroller firmware to control these systems over an Ethernet connection from the host computer.
 
 <p align="center">
-	<img src="/assets/images/RADAR.gif">
+	<img src="/assets/images/circuit.png">
+<br>
+	<img src="/assets/images/drive_by_wire_test.gif">
 <br>	
 	<a href="https://www.youtube.com/watch?v=7-SMA4yzBNs">YouTube: First System Test</a>
 <br>
