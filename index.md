@@ -30,7 +30,9 @@ In my first year as a member of the Smart Vehicle Club, I took on the role of th
 
 Below is a visualization I created utilizing the Waymo Open Dataset and Open3D
 
-![gif](/assets/images/waymo_lidar.gif)
+<p align="center">
+	<img src="/assets/images/waymo_lidar.gif">
+<br>
 
 ---
 
