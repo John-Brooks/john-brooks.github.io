@@ -6,6 +6,10 @@ layout: default
 
 I'm a software developer with several years of C++ expierence in the automotive industry and a passion for all things autonomous. As an undergraduate student at Oakland University and President of the Smart Vehicle Club, I've led our team to improve all aspects of our autonomous vehicle platform which competes in the IGVC Self Drive competition. From electrical engineering to machine vision, I've made personal contributions to every component of the vehicle. When I'm not working on our AV platform, I'm usually knee deep in teaching myself machine learning or attending hackathons. 
 
+**The Guts**: links which redirect to a file that is key to the functionality of the project.
+
+**The Repo**: links redirect to the GitHub repository.
+
 ---
 
 ### Intelligent Ground Vehicle Competition
@@ -32,6 +36,9 @@ Below is a visualization I created utilizing the Waymo Open Dataset and Open3D
 
 <p align="center">
 	<img src="/assets/images/waymo_lidar.gif">
+<br>
+	<a href="https://github.com/John-Brooks/WaymoOpenDatasetLiDARViz/">The Repo</a>
+<br>
 </p>
 
 ---
