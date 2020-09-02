@@ -32,7 +32,7 @@ Below is a visualization I created utilizing the Waymo Open Dataset and Open3D
 
 <p align="center">
 	<img src="/assets/images/waymo_lidar.gif">
-<br>
+</p>
 
 ---
 
